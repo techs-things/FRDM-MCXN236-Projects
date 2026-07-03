@@ -1,0 +1,7 @@
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\pwm_cmsis_button_toggle_led\drivers/fsl_clock.h:1234:20:CLOCK_EnableClock	24	static
+../board/clock_config.c:54:6:BOARD_InitBootClocks	8	static
+../board/clock_config.c:90:6:BOARD_BootClockFRO12M	24	static
+../board/clock_config.c:156:6:BOARD_BootClockFROHF48M	24	static
+../board/clock_config.c:228:6:BOARD_BootClockFROHF144M	24	static
+../board/clock_config.c:305:6:BOARD_BootClockPLL150M	48	static
+../board/clock_config.c:397:6:BOARD_BootClockPLL100M	48	static
