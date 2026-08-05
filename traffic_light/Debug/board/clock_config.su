@@ -1,4 +1,4 @@
-C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\traffic_light_cmsis_button_toggle_led\drivers/fsl_clock.h:1234:20:CLOCK_EnableClock	24	static
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Embedded_Project\traffic_light\drivers/fsl_clock.h:1234:20:CLOCK_EnableClock	24	static
 ../board/clock_config.c:54:6:BOARD_InitBootClocks	8	static
 ../board/clock_config.c:90:6:BOARD_BootClockFRO12M	24	static
 ../board/clock_config.c:156:6:BOARD_BootClockFROHF48M	24	static

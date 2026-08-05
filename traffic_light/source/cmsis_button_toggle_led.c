@@ -74,22 +74,26 @@ static void BUTTON_EventCallback(uint32_t pin, uint32_t event)
 void SetTrafficLight(traffic_state_t state)
 {
     /* Turn OFF both LEDs (active low) */
-    GPIO_PinWrite(GPIO4, 18U, 1U);   // Red OFF
-    GPIO_PinWrite(GPIO4, 19U, 1U);   // Green OFF
+	GPIO_PortClear(GPIO4, 1UL << 18U);
+			    GPIO_PortSet(GPIO4, (1UL << 19U) | (1UL << 17U));   // Red OFF
+			    GPIO_PortClear(GPIO4, 1UL << 19U);
+			            			    GPIO_PortSet(GPIO4, (1UL << 18U) | (1UL << 17U));
 
     switch(state)
     {
         case TRAFFIC_RED:
-            GPIO_PinWrite(GPIO4, 18U, 0U);
+        	GPIO_PortClear(GPIO4, 1UL << 18U);
+        	GPIO_PortSet(GPIO4, (1UL << 19U) | (1UL << 17U));
             break;
 
         case TRAFFIC_GREEN:
-            GPIO_PinWrite(GPIO4, 19U, 0U);
+        	GPIO_PortClear(GPIO4, 1UL << 19U);
+        	GPIO_PortSet(GPIO4, (1UL << 18U) | (1UL << 17U));
             break;
 
         case TRAFFIC_YELLOW:
-            GPIO_PinWrite(GPIO4, 18U, 0U);
-            GPIO_PinWrite(GPIO4, 19U, 0U);
+        	 GPIO_PortClear(GPIO4, (1UL << 18U) | (1UL << 19U));
+        	 GPIO_PortSet(GPIO4, 1UL << 17U);
             break;
 
         default:
@@ -106,13 +110,19 @@ int main(void)
     PRINTF("\r\nCMSIS GPIO Example! \r\n");
     PRINTF("\r\nUse Button to toggle LED! \r\n");
 
-    /* BUTTON pin set up */
     EXAMPLE_BUTTON_GPIO_INTERFACE.Setup(EXAMPLE_BUTTON_PIN, BUTTON_EventCallback);
-    EXAMPLE_BUTTON_GPIO_INTERFACE.SetEventTrigger(EXAMPLE_BUTTON_PIN, ARM_GPIO_TRIGGER_FALLING_EDGE);
-    /* LED pin set up */
-    EXAMPLE_LED_GPIO_INTERFACE.Setup(EXAMPLE_LED_PIN, NULL);
-    EXAMPLE_LED_GPIO_INTERFACE.SetDirection(EXAMPLE_LED_PIN, ARM_GPIO_OUTPUT);
-    EXAMPLE_LED_GPIO_INTERFACE.SetOutput(EXAMPLE_LED_PIN, LOGIC_LED_OFF);
+       EXAMPLE_BUTTON_GPIO_INTERFACE.SetEventTrigger(EXAMPLE_BUTTON_PIN, ARM_GPIO_TRIGGER_FALLING_EDGE);
+    gpio_pin_config_t ledConfig =
+      {
+          kGPIO_DigitalOutput,
+          1U      // Active LOW LEDs -> 1 means OFF initially
+      };
+
+      GPIO_PinInit(GPIO4, 18U, &ledConfig);   // RED
+      GPIO_PinInit(GPIO4, 19U, &ledConfig);   // GREEN
+      GPIO_PinInit(GPIO4, 17U, &ledConfig);   // BLUE
+
+
 
     while(1)
     {
@@ -176,8 +186,8 @@ int main(void)
                     500000,
                     CLOCK_GetCoreSysClkFreq());
 
-            GPIO_PinWrite(GPIO4,18U,1U);
-            GPIO_PinWrite(GPIO4,19U,1U);
+            GPIO_PortClear(GPIO4, 1UL << 18U);
+            GPIO_PortSet(GPIO4, (1UL << 19U) | (1UL << 17U));
 
             SDK_DelayAtLeastUs(
                     500000,
@@ -193,3 +203,7 @@ int main(void)
         }
     }
 }
+
+
+
+
