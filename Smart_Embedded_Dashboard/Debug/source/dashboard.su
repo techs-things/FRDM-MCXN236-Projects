@@ -1,0 +1,5 @@
+../source/dashboard.c:9:20:StateToString	16	static
+../source/dashboard.c:21:20:TimerMode	16	static
+../source/dashboard.c:26:20:TimerState	16	static
+../source/dashboard.c:31:20:YesNo	16	static
+../source/dashboard.c:36:6:Dashboard_Print	80	static

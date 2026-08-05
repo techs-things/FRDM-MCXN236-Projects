@@ -1,0 +1,11 @@
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_clock.h:1234:20:CLOCK_EnableClock	24	static
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_port.h:360:20:PORT_SetPinConfig	32	static
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_port.h:463:20:PORT_SetPinMux	24	static
+../board/pin_mux.c:39:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:68:6:BOARD_InitDEBUG_UARTPins	16	static
+../board/pin_mux.c:174:6:BOARD_InitSWD_DEBUGPins	24	static
+../board/pin_mux.c:271:6:BOARD_InitLEDsPins	24	static
+../board/pin_mux.c:366:6:BOARD_InitBUTTONsPins	8	static
+../board/pin_mux.c:422:6:BOARD_InitULTRASONICPins	16	static
+../board/pin_mux.c:482:6:BOARD_InitIRPins	16	static
+../board/pin_mux.c:524:6:BOARD_InitDHTPins	8	static

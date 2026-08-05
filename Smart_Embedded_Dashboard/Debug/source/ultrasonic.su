@@ -1,0 +1,7 @@
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_gpio.h:427:24:GPIO_PinRead	16	static
+../source/ultrasonic.c:8:6:Ultrasonic_Init	8	static
+../source/ultrasonic.c:16:6:Ultrasonic_Trigger	8	static
+../source/ultrasonic.c:44:6:Ultrasonic_ReadEcho	8	static
+../source/ultrasonic.c:53:10:Ultrasonic_GetDistanceCM	32	static
+../source/ultrasonic.c:102:10:Ultrasonic_GetAverageDistance	24	static

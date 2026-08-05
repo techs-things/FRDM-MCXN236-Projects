@@ -1,0 +1,10 @@
+../source/timer.c:11:6:Timer_Init	16	static
+../source/timer.c:39:9:Timer_Create	32	static
+../source/timer.c:75:6:Timer_Start	16	static
+../source/timer.c:91:6:Timer_Stop	16	static
+../source/timer.c:101:6:Timer_Reset	16	static
+../source/timer.c:113:6:Timer_Update	16	static
+../source/timer.c:145:6:Timer_Expired	16	static
+../source/timer.c:162:19:Timer_GetStatistics	24	static
+../source/timer.c:194:10:Timer_GetTable	4	static
+../source/timer.c:201:9:Timer_GetCount	4	static

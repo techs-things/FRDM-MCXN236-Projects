@@ -1,0 +1,4 @@
+../source/rtc.c:6:6:RTC_DriverInit	24	static
+../source/rtc.c:45:6:RTC_PrintTime	16	static
+../source/rtc.c:53:6:RTC_Update	8	static
+../source/rtc.c:58:17:RTC_GetTime	16	static

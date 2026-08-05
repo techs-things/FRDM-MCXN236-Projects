@@ -1,0 +1,14 @@
+../source/scheduler.c:24:6:Scheduler_Init	16	static
+../source/scheduler.c:46:6:Scheduler_AddTask	24	static
+../source/scheduler.c:81:10:Scheduler_GetTicks	4	static
+../source/scheduler.c:89:6:Scheduler_Run	24	static
+../source/scheduler.c:140:6:Scheduler_PrintTasks	16	static
+../source/scheduler.c:195:6:Scheduler_DisableTask	16	static
+../source/scheduler.c:203:6:Scheduler_SuspendTask	16	static
+../source/scheduler.c:211:6:Scheduler_ResumeTask	16	static
+../source/scheduler.c:223:6:Scheduler_EnableTask	16	static
+../source/scheduler.c:232:18:Scheduler_GetTaskTable	4	static
+../source/scheduler.c:237:9:Scheduler_GetTaskCount	4	static
+../source/scheduler.c:242:10:Scheduler_GetCPULoad	4	static
+../source/scheduler.c:247:6:Scheduler_UpdateCPULoad	24	static
+../source/scheduler.c:271:18:Scheduler_GetStatistics	32	static

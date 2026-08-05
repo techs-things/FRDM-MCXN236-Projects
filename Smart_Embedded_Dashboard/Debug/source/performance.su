@@ -1,0 +1,2 @@
+../source/performance.c:5:6:Performance_Init	4	static
+../source/performance.c:14:10:Performance_GetCycles	4	static

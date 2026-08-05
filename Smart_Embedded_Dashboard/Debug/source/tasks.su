@@ -1,0 +1,11 @@
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_gpio.h:427:24:GPIO_PinRead	16	static
+../source/tasks.c:14:6:LED_Task	8	static
+../source/tasks.c:33:6:Monitor_Task	8	static
+../source/tasks.c:39:6:Idle_Task	4	static
+../source/tasks.c:49:6:RTC_Task	8	static
+../source/tasks.c:56:6:LCD_Task	8	static
+../source/tasks.c:63:6:Button_Task	16	static
+../source/tasks.c:92:6:Ultrasonic_Task	16	static
+../source/tasks.c:108:6:IR_Task	4	static
+../source/tasks.c:120:6:DHT_Task	16	static

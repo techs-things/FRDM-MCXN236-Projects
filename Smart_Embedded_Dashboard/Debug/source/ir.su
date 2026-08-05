@@ -1,0 +1,4 @@
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_gpio.h:427:24:GPIO_PinRead	16	static
+../source/ir.c:10:6:IR_Init	4	static
+../source/ir.c:20:6:IR_ObjectDetected	8	static
+../source/ir.c:33:9:IR_GetState	8	static

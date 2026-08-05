@@ -1,0 +1,9 @@
+../source/lcd_dashboard.c:19:13:Dashboard_DrawDHT	40	static
+../source/lcd_dashboard.c:31:13:Dashboard_DrawHeader	16	static
+../source/lcd_dashboard.c:43:13:Dashboard_DrawSystem	8	static
+../source/lcd_dashboard.c:51:13:Dashboard_DrawScheduler	8	static
+../source/lcd_dashboard.c:59:13:Dashboard_DrawSensor	16	static
+../source/lcd_dashboard.c:84:13:Dashboard_DrawStatus	8	static
+../source/lcd_dashboard.c:91:6:LCD_Dashboard_Update	8	static
+../source/lcd_dashboard.c:125:6:LCD_Dashboard_NextPage	8	static
+../source/lcd_dashboard.c:138:6:LCD_Dashboard_PreviousPage	8	static

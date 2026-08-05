@@ -1,0 +1,7 @@
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\Smart_Embedded_Dashboard\drivers/fsl_clock.h:1234:20:CLOCK_EnableClock	24	static
+../board/clock_config.c:47:6:BOARD_InitBootClocks	8	static
+../board/clock_config.c:83:6:BOARD_BootClockFRO12M	24	static
+../board/clock_config.c:150:6:BOARD_BootClockFROHF48M	24	static
+../board/clock_config.c:223:6:BOARD_BootClockFROHF144M	24	static
+../board/clock_config.c:319:6:BOARD_BootClockPLL150M	56	static
+../board/clock_config.c:435:6:BOARD_BootClockPLL100M	48	static
