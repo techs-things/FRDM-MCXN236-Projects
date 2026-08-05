@@ -1,0 +1,6 @@
+../source/scheduler.c:20:6:Scheduler_Init	16	static
+../source/scheduler.c:41:6:Scheduler_AddTask	24	static
+../source/scheduler.c:69:6:Scheduler_Run	16	static
+../source/scheduler.c:104:6:Scheduler_PrintTasks	24	static
+../source/scheduler.c:151:6:Scheduler_EnableTask	16	static
+../source/scheduler.c:162:6:Scheduler_DisableTask	16	static

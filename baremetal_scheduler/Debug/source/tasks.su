@@ -1,0 +1,7 @@
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\baremetal_scheduler\drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
+C:\Users\G SHIVA\Documents\MCUXpressoIDE_25.6.136\workspace\baremetal_scheduler\drivers/fsl_gpio.h:427:24:GPIO_PinRead	16	static
+../source/tasks.c:12:6:LED_Task	8	static
+../source/tasks.c:23:6:UART_Task	8	static
+../source/tasks.c:30:6:Stopwatch_Task	8	static
+../source/tasks.c:39:6:Button_Task	8	static
+../source/tasks.c:48:6:Monitor_Task	8	static
